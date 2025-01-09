@@ -1,19 +1,20 @@
 {
-  "name": "notion-react-example",
+  "name": "notion-story",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@notion-render/client": "^0.0.2",
     "@notionhq/client": "^2.2.15",
     "next": "15.1.4",
+    "notion-to-md": "^3.1.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
